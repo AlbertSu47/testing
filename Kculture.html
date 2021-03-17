@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>訂購單</title>
+<!----->
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+<link href='public/imgs/logo.jpg' rel="logo icon" />
+<link href="public/order.css" rel="stylesheet" />
+<!----->
+</head>
+
+<body>
+    <!--nav區塊----------------------------------------------------------------------------->
+    <nav>
+        <div class="nav-header">    
+            <a class="home"> <img src="public/imgs/home.jpg" width="25px" alt="home"> </a>        
+            <a> <img src="public/imgs/logo.jpg" width="70px" alt="logo"> </a> 
+        </div>
+        <div class="nav-down">
+            <ul>
+                <li> <a href="https://zt.coinmill.com/">匯率</a> </li>
+                <li> <a href="https://world.jorudan.co.jp/mln/zh-tw/">交通</a> </li>
+                <li> <a href="https://www.cwb.gov.tw/V8/C/W/world.html">天氣</a> </li>
+                <li> <a href="#">登出</a> </li>
+            </ul>
+        </div>
+        <div class="nav-footer">
+           <a href="#"> <img src="public/imgs/01.jpg" width="25px" alt="會員登入後標示"> </a>
+        </div>
+    </nav>
+   <!--flex區塊--------------------------------------------------------------------------------->
+   <div class="flex">
+        <div class="flex-left">
+            <hr>
+            <img src="public/imgs/img02.jpg" width="100%">
+            <hr>
+        </div>
+        <div class="flex-right">
+            <p>
+                <h1>感受文化的氣息</h1>
+                <hr>
+                <blockquote class="bq1">
+                    平安神宮 -&gt; 岡崎公園                   
+                </blockquote>
+                <hr>
+                <!--日期------------------------------------------------------------------->
+                <form class="date">
+                    <blockquote>
+                    <u>DATE</u><br>                  
+                    <input type="date" style="width: 200px; height: 30px;font-size: 20px;">
+                    <span class="date"><input type="submit" value="確定" style="width:60px;height: 35px; font-size:large;"></span>
+                    </blockquote>
+                </form>
+                <!--人數------------------------------------------------------------------->
+                <form class="people">
+                    <u>人數/類型</u><br>
+                    孩童  &nbsp;<input type="number" min="0" max="100" name="people" value="幾位?" size="20px" style="width: 60px; height: 20px;">
+                
+                    成年  &nbsp;<input type="number" min="0" max="100" name="people" value="幾位?" size="20px" style="width: 60px; height: 20px;">
+                
+                    老年  &nbsp;<input type="number" min="0" max="100" name="people" value="幾位?" size="20px" style="width: 60px; height: 20px;">
+                    <span class="name"><input type="reset" value="重選" style="width:60px;height: 35px; font-size:large;"></span>
+                    <span class="name"><input type="submit" value="確認" style="width:60px;height: 35px; font-size:large;"></span>
+                    <br>
+                </form>
+            </p>
+        </div>    
+    </div>
+    <!--footer區塊------------------------------------------------------------------------------->
+    <div class="footer">
+        <p>NTUB &copy tripmonkey</p>
+    </div>
+    <!------------------------------------------------------------------------------------------>
+</body>
+</html>

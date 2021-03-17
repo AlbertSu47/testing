@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body{
+    font-family: 'Noto Sans TC', sans-serif; 
+    background: #eae7e0;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    background: url("../imgs/style.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+/*-----nav區塊------------------------------------------*/
+nav{
+    background: #fff;
+    box-shadow:0 1px 1px 0px #000;
+}
+/*----nav-header區塊------------------------------------*/
+div.nav-header{
+    margin: 0 0 0 15px;
+}
+/*----nav-header a的home區塊----------------------------*/
+a.home{
+    margin: 0 7px 0 0;
+    position: relative;
+    top:-10px
+}
+/*-----nav-down區塊-------------------------------------*/
+div.nav-down{
+    position: relative;
+    top:-55px
+}
+/*-----ul區塊-------------------------------------------*/
+div.nav-down ul{
+    list-style: none; 
+}
+/*-----li區塊-------------------------------------------*/
+div.nav-down li{
+    float: left;
+    position: relative;  
+    left: 77%;
+}
+/*-----li區塊-之間間隔-----------------------------------*/
+div.nav-down li:nth-child(1){
+    margin-right:50px;
+    padding: 0;
+}
+div.nav-down li:nth-child(2){
+    margin-right:50px;
+    padding: 0;
+}
+div.nav-down li:nth-child(3){
+    margin-right:50px;
+    padding: 0;
+}
+/*-----li區塊+|------------------------------------------*/
+div.nav-down li::before{
+    content: "|";
+}
+/*-----a區塊---------------------------------------------*/
+div.nav-down a{
+    color: inherit;
+    text-decoration:none;
+}
+/*-----碰到a時-------------------------------------------*/
+div.nav-down a:hover{
+    color: #fff;
+}
+/*----nav-footer區塊------------------------------------*/
+div.nav-footer{
+    position: relative;    
+    float: left;
+    left: 78%; 
+    top:-53.5px;
+}
+/*-----footer區塊----------------------------------------*/
+div.footer{
+    height:50px;
+    text-align:center; 
+    font-size:13px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    letter-spacing:1px; 
+    color:#fff;
+    background: #221814; 
+ 
+}
+/*-----main h1區塊----------------------------------------*/
+h1{
+    font-size:100px;
+    position: relative;
+    left: 850px;
+    bottom: 50px;
+    font-weight: 300;
+}
+/*-----main top區塊----------------------------------------*/
+div.main-top{
+    width: 1400px;
+    font-size: 30px;
+    background: rgba(234, 231, 224,0.6);
+    border: double;
+    position: relative;
+    left: 270px;
+    top: -50px;
+    padding: 20px 0 20px 0;
+    display: block;
+}
+input:nth-child(1){
+    margin-left:120px;
+    padding: 0;
+}
+input:nth-child(2){
+    margin-left:50px;
+    padding: 0;
+}
+input:nth-child(3){
+    margin-left:50px;
+    padding: 0;
+}
+input:nth-child(4){
+    margin-left:50px;
+    padding: 0;
+}
+input:nth-child(5){
+    margin-left:50px;
+    padding: 0;
+}
+input:nth-child(6){
+    margin-left:50px;
+    padding: 0;
+}
+/*-----main down區塊----------------------------------------*/
+div.down{
+    background: rgba(234, 231, 224,0.6);
+    width: 1400px;
+    border: double;
+    position: relative;
+    left: 270px;
+}
+/*-----main down img區塊------------------------------------*/
+img.mainimg{
+    margin: 50px 0 0 30px;
+    padding-left: 15px;
+}
+a.main{
+    font-size: 50px;
+    margin-left: 50px;
+    position: relative;
+    top: -190px;
+    color: black;
+    text-decoration:none;
+}
+/*-----碰到a時-------------------------------------------*/
+a.main:hover{
+    color: #fff;
+}
+/*-----footer區塊------------------------------------------*/
+div.footer{
+    height:50px;
+    text-align:center; 
+    font-size:13px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    letter-spacing:1px; 
+    color:#fff;
+    background: #221814;  
+}

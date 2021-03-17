@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body{
+    font-family: 'Noto Sans TC', sans-serif; 
+    background: #eae7e0;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    overflow-x: hidden;
+    height: 900px;
+}
+/*-----nav區塊------------------------------------------*/
+nav{
+    background: #fff;
+    box-shadow:0 1px 1px 0px #000;
+}
+/*----nav-header區塊------------------------------------*/
+div.nav-header{
+    margin: 0 0 0 15px;
+}
+/*----nav-header a的home區塊----------------------------*/
+a.home{
+    margin: 0 7px 0 0;
+    position: relative;
+    top:-10px
+}
+/*-----nav-down區塊-------------------------------------*/
+div.nav-down{
+    position: relative;
+    top:-55px
+}
+/*-----ul區塊-------------------------------------------*/
+div.nav-down ul{
+    list-style: none; 
+}
+/*-----li區塊-------------------------------------------*/
+div.nav-down li{
+    float: left;
+    position: relative;  
+    left: 77%;
+}
+/*-----li區塊-之間間隔-----------------------------------*/
+div.nav-down li:nth-child(1){
+    margin-right:50px;
+    padding: 0;
+}
+div.nav-down li:nth-child(2){
+    margin-right:50px;
+    padding: 0;
+}
+div.nav-down li:nth-child(3){
+    margin-right:50px;
+    padding: 0;
+}
+/*-----li區塊+|------------------------------------------*/
+div.nav-down li::before{
+    content: "|";
+}
+/*-----a區塊---------------------------------------------*/
+div.nav-down a{
+    color: inherit;
+    text-decoration:none;
+}
+/*-----碰到a時-------------------------------------------*/
+div.nav-down a:hover{
+    color: #fff;
+}
+/*----nav-footer區塊------------------------------------*/
+div.nav-footer{
+    position: relative;    
+    float: left;
+    left: 78%; 
+    top:-53.5px;
+}
+/*-----footer區塊----------------------------------------*/
+div.footer{
+    height:50px;
+    text-align:center; 
+    font-size:13px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    letter-spacing:1px; 
+    color:#fff;
+    background: #221814; 
+ 
+}
+/*-----flex區塊------------------------------------------*/
+div.flex{
+    display: flex;
+    justify-content:flex-start;
+}
+/*-----flex-left區塊-------------------------------------*/
+div.flex-left{
+    flex:2;
+    position: relative;
+    left:-200px;
+    bottom:-150.5px;
+}
+/*-----flex-right區塊------------------------------------*/
+div.flex-right{
+    padding: 0 0 0 15px;
+    flex:3; 
+    position: relative;
+    left:-100px;  
+    bottom: -150px; 
+    border: double;
+}
+h1{
+    font-size: 40px;
+}
+blockquote.bq1{
+    font-size: 25px;
+}
+/*-----form日期區塊---------------------------------------*/
+form.date{  
+    position: relative;
+    top:20px; 
+    font-size: 25px;
+}
+span.date input{
+    border-style: outset;
+    border-color: #a3a2a2;
+}
+/*-----form人數區塊---------------------------------------*/
+form.people{
+    position: relative;
+    left: 480px;
+    top: -82.5px;
+    font-size: 25px;
+}
+/*-----按鍵區塊-------------------------------------------*/
+span.name input{
+    border-style: outset;
+    border-color: #a3a2a2;
+    position: relative;
+    right:90px;
+    bottom: -70px;
+}
+/*-----footer區塊----------------------------------------*/
+div.footer{
+    height:50px;
+    text-align:center; 
+    font-size:13px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    letter-spacing:1px; 
+    color:#fff;
+    background: #221814; 
+ 
+}
